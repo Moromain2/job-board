@@ -1,0 +1,92 @@
+[
+    {
+        "job_title": "Full Time Sales Associate - Sydney Boutique",
+        "job_type": "CDI",
+        "job_location": {
+            "country": "Australia",
+            "city": "Sydney"
+        },
+        "color": "red"
+    },
+    {
+        "job_title": "Agent de Sécurité - Pantin",
+        "job_type": "CDI",
+        "job_location": {
+            "country": "France",
+            "city": "Pantin"
+        },
+        "color": "green"
+    },
+    {
+        "job_title": "Responsable d'Atelier (H/F)",
+        "job_type": "CDD",
+        "job_location": {
+            "country": "France",
+            "city": "Paris"
+        },
+        "color": "yellow"
+    },
+    {
+        "job_title": "Chef de projets",
+        "job_type": "CDD",
+        "job_location": {
+            "country": "France",
+            "city": "Paris"
+        },
+        "color": "blue"
+    },
+    {
+        "job_title": "Développeur React.js",
+        "job_type": "CDI",
+        "job_location": {
+            "country": "France",
+            "city": "Paris"
+        },
+        "color": "pink"
+    },
+    {
+        "job_title": "Sales Associate Stockholm",
+        "job_type": "CDI",
+        "job_location": {
+            "country": "Suède",
+            "city": "Stockholm"
+        },
+        "color": "red"
+    },
+    {
+        "job_title": "Vendeur/se - Crans Montana",
+        "job_type": "CDI",
+        "job_location": {
+            "country": "Suisse",
+            "city": "Crans-Montana"
+        },
+        "color": "green"
+    },
+    {
+        "job_title": "CRM & Data Quality Analyst",
+        "job_type": "CDI",
+        "job_location": {
+            "country": "USA",
+            "city": "New-York"
+        },
+        "color": "yellow"
+    },
+    {
+        "job_title": "Infirmier (H/F)",
+        "job_type": "CDI",
+        "job_location": {
+            "country": "France",
+            "city": "Pantin"
+        },
+        "color": "blue"
+    },
+        {
+        "job_title": "Développeur full stack",
+        "job_type": "CDD",
+        "job_location": {
+            "country": "France",
+            "city": "Marseille"
+        },
+        "color": "pink"
+    }
+]

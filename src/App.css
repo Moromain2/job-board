@@ -1,0 +1,118 @@
+/* === Font import === */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+/* === Variables === */
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --grey: #333333;
+  --light-grey: #dddddd;
+  --red: radial-gradient(
+    circle farthest-corner at 17.1% 22.8%,
+    rgba(226, 24, 24, 1) 0%,
+    rgba(160, 6, 6, 1) 90%
+  );
+  --blue: linear-gradient(
+    90.1deg,
+    rgba(84, 212, 228, 1) 0.2%,
+    rgba(68, 36, 164, 1) 99.9%
+  );
+  --green: linear-gradient(
+    91deg,
+    rgba(72, 154, 78, 1) 5.2%,
+    rgba(251, 206, 70, 1) 95.9%
+  );
+  --yellow: radial-gradient(
+    circle 763px at 18.3% 24.1%,
+    rgba(255, 249, 137, 1) 7.4%,
+    rgba(226, 183, 40, 1) 58.3%
+  );
+  --pink: linear-gradient(
+    58.2deg,
+    rgba(40, 91, 212, 0.73) -3%,
+    rgba(171, 53, 163, 0.45) 49.3%,
+    rgba(255, 204, 112, 0.37) 97.7%
+  );
+}
+
+/* === Global === */
+body {
+  font-family: "Roboto", "Arial", sans-serif;
+  background-color: var(--white);
+  color: var(--black);
+}
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 48px;
+}
+h2 {
+  font-size: 30px;
+  line-height: 32px;
+}
+p {
+  font-size: 18px;
+  line-height: 21px;
+}
+.container {
+  max-width: 1060px;
+  padding: 0 20px;
+  margin: auto;
+  justify-content: center;
+}
+
+/* === Header === */
+header {
+  background-color: var(--grey);
+  color: var(--white);
+  padding: 27px 0;
+  text-align: center;
+}
+
+/* === Footer === */
+footer {
+  background-color: var(--light-grey);
+  padding: 20px 0;
+  text-align: center;
+}
+footer a {
+  font-weight: bold;
+}
+
+/* === Job offers === */
+.offers-wrapper {
+  margin: 60px auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+.job-offer {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 18px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px -10px rgba(0, 0, 0, 0.5);
+}
+
+/* === Dynamic styles === */
+.red {
+  background-image: var(--red);
+  color: var(--white);
+}
+.blue {
+  background-image: var(--blue);
+  color: var(--white);
+}
+.green {
+  background-image: var(--green);
+  color: var(--white);
+}
+.yellow {
+  background-image: var(--yellow);
+}
+.pink {
+  background-image: var(--pink);
+}
